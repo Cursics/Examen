@@ -1,0 +1,146 @@
+*{
+	box-sizing: border-box;
+}
+
+.d-flex{
+	display:flex;
+}
+.flex-column{
+	flex-direction:column;
+}
+.flexrow{
+	flex-direction:row; 
+}
+.flex-wrap{
+	flex-wrap:wrap;
+}
+.flex-nowrap{
+	flex-wrap:nowrap;
+}
+/*centreren van child binnne de parent*/
+.justify-content-end{
+	justify-content:flex-end;
+}
+.justify-content-center{
+	justify-content:center;
+}
+/*child aligneren zichzelf*/
+.align-items-center{
+	align-items:center;
+}
+.w-25{
+	width:25%;
+}
+.w-50{
+	width:50%;
+}
+.w-75{
+	width:75%;
+}
+.w-100{
+	width: 100%;
+}
+/*- Typography -*/
+.upper{
+	text-transform:uppercase;
+}
+.lower{
+	text-transform:lowercase;
+}
+.capital{
+	text-transform:capitalize;
+}
+.justify-content-between{
+	justify-content:space-between;
+}
+
+body{
+	width: 1600px;
+	margin: 0 auto;
+}
+#navbar, #webpaintcontent, #picitemcontent, #workcontent{
+	width: 1112px; /*container breedte ingeven*/
+	margin: 0 auto;
+	color:#262626;
+}
+nav{
+	height: 148px;
+	width: 100%;
+	background:#262626;
+}
+#logo{
+	height: 35px;
+	width: 105px;
+	margin-right: auto;
+}
+#navbar ul{
+	list-style: none;
+	font-family: 'Lato', black;
+}
+#navbar ul li a{
+	text-decoration:none;
+	color:#d9d9d9;
+	font-size:13px;
+	padding: 12px;
+	padding-left: 22px;
+	
+}
+#navbar ul li a:not(:last-child){
+	padding-right:22px;
+}
+#navbar ul li a:hover{
+	color: #ea6660;
+}
+#webpaint{
+	height: 400px;
+	background:#2a2a2a;
+}
+#webpaintcontent{
+	height: 400px;
+	text-align: center;
+	
+}
+#webpaintcontent h2{
+	color: #d9d9d9;
+	font-size: 60px;
+	align-items: center;
+	font-family: 'Lato', black;
+}
+#webpaintcontent h2 span{
+	color:#d9d9d9;
+}
+#webpaintcontent p{
+	color: #d9d9d9;
+	font-size:40px;
+}
+.btn{
+	color: #fff;
+	background:#ea6660;
+	border: none;
+    width: 201px;
+    height: 53px;
+    border-radius: 5px;
+    cursor:pointer;
+    margin-left: auto;
+    margin-right: auto;
+}
+#picitem{
+	background:#f8f8f8;
+}
+#picitemcontent{
+	text-align: center;
+}
+#picitemcontent article:not(:last-child){
+	padding-right: 54px;
+	}
+#picitemcontent article{
+	padding-top: 86px;
+}
+#workcontent{
+	text-align: center;
+}
+#workarticle img{
+	margin: 5px 5px;
+	height: 221px;
+	width: 272px;
+}
